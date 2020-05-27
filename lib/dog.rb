@@ -7,7 +7,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << @name
+    @@all << self
   end
   binding.pry
   def self.all
