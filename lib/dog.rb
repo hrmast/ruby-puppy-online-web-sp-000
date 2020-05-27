@@ -23,7 +23,7 @@ class Dog
   end
 
   def save
-    pry
+    binding.pry
     @@all << self
   end
 end
