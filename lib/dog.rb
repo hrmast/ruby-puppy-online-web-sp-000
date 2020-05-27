@@ -8,7 +8,6 @@ class Dog
   def initialize(name)
     @name = name
     save
-
   end
 
   def self.all
@@ -23,7 +22,7 @@ class Dog
     @@all.each {|name| puts "#{name}"}
   end
 
-  def @save = save
+  def save
     @@all << self
   end
 end
