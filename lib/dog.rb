@@ -1,12 +1,11 @@
 class Dog
 
   @@all = []
-  @@clear_all = []
-  @@print_all = []
 
   def initialize(name)
     @name = name
-    @@all << self
+    @all << self
+    
   end
 
 end
