@@ -2,7 +2,7 @@ require "pry"
 
 class Dog
   attr_accessor :name
-
+  
   @@all = []
 
   def initialize(name)
@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    binding.pry
     @@all.each {|name| puts "#{name}"}
   end
+  binding.pry
 end
