@@ -1,9 +1,8 @@
 class Dog
-
+  attr_assessor :name
   @@all = []
 
   def initialize(name)
-    @name = name
     @@all << self
   end
 
