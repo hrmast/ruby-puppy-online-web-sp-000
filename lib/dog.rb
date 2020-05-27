@@ -23,6 +23,7 @@ class Dog
   end
 
   def save
+    pry
     @@all << self
   end
 end
