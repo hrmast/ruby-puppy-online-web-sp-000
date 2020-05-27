@@ -26,4 +26,6 @@ class Dog
   
     @@all << self
   end
+  binding.pry
+  
 end
