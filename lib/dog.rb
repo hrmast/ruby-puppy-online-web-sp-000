@@ -19,7 +19,6 @@ class Dog
   end
 
   def self.print_all
-    name_list = []
     @@all.each {|name| puts "#{name}"}
   end
 end
